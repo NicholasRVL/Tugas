@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    box-sizing: border-box;
+    place-items: center;
+    align-items: center;
+    font-family: System-ui;
+    background-image: url(img/relaxing-astronaut-3840x2160-21302.jpg);
+    background-size: cover;
+}
+
+.title1{
+    font-size: 3em;
+    text-align: center;
+    color: #ccc;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 93vh;
+    margin: 30px;
+    border: 5px solid rgba(255, 255, 255, 0.356);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.form1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: 5vh;
+}
+
+.inp{
+    font-size: 1.5em;
+    margin: 10px;
+    width: 50vh;
+    border-radius: 7px;
+    padding: 2px;
+    background-color: #ffc7b075;
+    
+}
+
+.btn1{
+    font-size: 1em;
+    margin: 15px;
+    padding: 10px;
+    width: 50%;
+    border-radius: 10px;
+    background-color: #ffffff3f;
+    transition: all 0.2s ease;
+}
+
+.btn1:hover{
+    background-color: #ffffffc4;
+}
+
+.dis-tabel{
+    width: 70%;
+
+}
+
+table{
+    border: 1;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+
+th{
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+}
+
+td{
+    color: black;
+    font-size: 1.4em;
+    padding: 10px;
+  
+}
+
+table, th, td{
+    border: 3px solid #ccc;
+}
